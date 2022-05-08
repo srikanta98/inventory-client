@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@500&display=swap');
+
+.top{
+   text-align: center;
+    color: rgb(98, 121, 184);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    
+}
+.topi{
+   text-align: center;
+    color: rgb(98, 121, 184);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-top: 150px;
+    
+}
+
+.service{
+    text-align: center;
+    color: rgb(134, 191, 230);
+    font-family: 'Merriweather', serif;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+/* make services reponsive */
+@media only screen and (max-width:576px){
+    .services{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:577px) and (max-width: 992px){
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.posi{
+    position: relative;
+    left: 450px;
+    top: 40px;
+}

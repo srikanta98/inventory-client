@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@500&display=swap');
+
+.bg{
+    background-color: #ECEFF1;
+}
+.sec2{
+    background-color: #21D192;
+}
+.hrtip{
+    width: 60px;
+    height: 2px;
+    background-color:  #7c4dff;
+}
+.dip{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+.black{
+    color: rgb(36, 34, 34);
+}
+.font{
+    font-family: 'Merriweather', serif;
+}

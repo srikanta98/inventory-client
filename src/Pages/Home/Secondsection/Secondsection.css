@@ -1,0 +1,13 @@
+.expert{
+    text-align: center;
+}
+.texti{
+    font-family: 'Merriweather', serif;
+    border: none;
+}
+.mg{
+    background: #e7eaf0;
+	border-radius: 25px;
+	box-shadow: inset -10px -3px 17px #dfdbdbb0, inset 6px 6px -7px rgba(110, 128, 158, 0.692);
+    border: none;
+}

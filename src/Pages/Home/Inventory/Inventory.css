@@ -1,0 +1,52 @@
+.services-service{
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 550px;
+}
+
+.bg {
+    background: #e7eaf0;
+	border-radius: 25px;
+	box-shadow: inset -10px -3px 17px #dfdbdbb0, inset 6px 6px 7px rgba(110, 128, 158, 0.692);
+    border: none;
+    
+}
+.btn-pop{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:20px;
+    padding: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .btn-pop:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  .btn-pop:before,.btn-pop:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  .btn-pop:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-pop:hover:before,.btn-pop:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
