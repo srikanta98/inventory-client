@@ -67,13 +67,15 @@ const Addall = () => {
     };
     return (
         <div data-aos='zoom-out'>
-             <h2>Please add a service</h2>
+             <h2 className='service'>Please add a service</h2>
              {/* <Link to={`/checkout/${inventoryId}`}> */}
-             <form className='d-flex flex-column bg' onSubmit={handleSubmit(onSubmit)}>
+             <form className='d-flex flex-column  container' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' {...register("name", { required: true, maxLength: 20 })} />
-                <textarea className='mb-2' placeholder='service' {...register("service")} />
+                <textarea className='mb-2' placeholder='description' {...register("service")} />
                 <input className='mb-2' placeholder='Price' type="number" {...register("price")} />
-                <input className='mb-2' placeholder='Photo URL' type="text" {...register("img")} />
+                <input className='mb-2' placeholder='Img' type="text" {...register("img")} />
+                <input className='mb-2' placeholder='suppliar' type="text" {...register("suppliar")} />
+                <input className='mb-2' placeholder='Quantity' type="text" {...register("quantity")} />
                 <input type="submit" value="Add Service" />
             </form>
       
