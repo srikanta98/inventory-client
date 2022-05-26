@@ -49,6 +49,21 @@ const Order = () => {
                     </div>
                 </div>)
             }
+            
+            {/* <div class="drawer drawer-left slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title" aria-hidden="true" id="drawer-1">
+                <div class="drawer-content drawer-content-scrollable" role="document">
+                    <div class="drawer-header">
+                        <h4 class="drawer-title" id="drawer-1-title">Drawer Title</h4>
+                    </div>
+                    <div class="drawer-body">
+                        <p>Drawer body</p>
+                        <button type="button" class="btn btn-secondary btn-block" data-dismiss="drawer" aria-label="Close">
+                            Close
+                        </button>
+                    </div>
+                    <div class="drawer-footer">Drawer footer</div>
+                </div>
+            </div> */}
         </div>
     );
 };

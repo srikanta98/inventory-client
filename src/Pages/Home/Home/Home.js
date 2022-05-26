@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Outlet } from 'react-router-dom';
 import PageTitle from '../../Shared/PageTitle/PageTitle';
 import Banner from '../Banner/Banner';
 import Inventories from '../Inventories/Inventories';

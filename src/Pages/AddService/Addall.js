@@ -31,18 +31,7 @@ const Addall = () => {
     // }
     const onSubmit = data => {
         console.log(data);
-        // const urli = `https://nameless-ridge-09787.herokuapp.com/order`;
-        // fetch(urli, {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(data)
-        // })
-        // .then(res=> res.json())
-        // .then(result =>{
-        //     console.log(result);
-        // } );
+       
         const url = `https://nameless-ridge-09787.herokuapp.com/inventory`;
         fetch(url, {
             method: 'POST',
@@ -56,14 +45,7 @@ const Addall = () => {
             console.log(result);
         } );
         
-        // axios.post('https://nameless-ridge-09787.herokuapp.com/order', order)
-        // .then(response =>{
-        //     const {data} = response;
-        //     if(data.insertedId){
-        //         toast('Your order is booked!!!');
-                
-        //     }
-        // })
+       
     };
     return (
         <div data-aos='zoom-out'>

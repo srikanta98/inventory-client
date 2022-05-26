@@ -18,14 +18,14 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="light" variant="light">
+            <Navbar  collapseOnSelect expand="lg" sticky='top' bg="light" variant="light">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img height={30} src={logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto" >
+                        <Nav className="me-auto fw-bolder fs-5 he" >
                             <Nav.Link href="home">Home</Nav.Link>
                             <Nav.Link href="home#inventories">Inventories</Nav.Link>
                             <Nav.Link href="home#inventory">Inventory</Nav.Link>

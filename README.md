@@ -1,6 +1,6 @@
 # Warehouse management project with Firebase ,Node and mongoDb
 
-This project was Really cool [Live link of this project](https://jolly-empanada-be2cee.netlify.app/).
+This project was Really cool [Live link of this project](https://magical-toffee-af82aa.netlify.app/).
 
 ## Available Scripts
 
